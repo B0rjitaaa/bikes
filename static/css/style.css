@@ -327,6 +327,52 @@ select{
 	background:#000;
 	color:#fcff19;
 }
+.social {
+  margin: 0em 0;
+  float: right;
+}
+.social i {
+width: 27px;
+height: 27px;
+display: inline-block;
+margin:0 5px;
+}
+.social a{
+	color:white;
+}
+.social a:hover{
+	color:black;
+}
+a i.facebook{
+background-position:-3px -2px;
+}
+a i.twitter{
+background-position: -43px -3px;
+}
+a i.dribble{
+background-position: -83px -3px;
+}
+a i.google{
+background-position:-126px -2px
+}
+a i.youtube{
+background-position:-167px -3px;
+}
+a i.facebook:hover{
+background-position:-3px -36px;
+}
+a i.twitter:hover{
+background-position: -43px -36px;
+}
+a i.dribble:hover{
+background-position: -83px -36px;
+}
+a i.google:hover{
+background-position:-126px -36px
+}
+a i.youtube:hover{
+background-position:-167px -36px;
+}
 .viw{
 	  position: absolute;
   background: #000;
