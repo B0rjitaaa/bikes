@@ -124,8 +124,8 @@ if IS_ON_OPENSHIFT:
     MEDIA_URL = '/static/media/'
     MEDIA_ROOT = os.path.join(os.environ.get('OPENSHIFT_DATA_DIR'), 'media')
 else:
-    MEDIA_URL = '/media/'
-    MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+    MEDIA_URL = '/images/'
+    MEDIA_ROOT = os.path.join(BASE_DIR, 'images')
 
 
 # Debug Mode in terminal

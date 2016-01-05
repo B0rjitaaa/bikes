@@ -46,12 +46,12 @@ color: #fff;
 color:#fcff19;
 }
 .banner-bg1{
-	background:url(../images/bg.jpg) no-repeat;
+	background:url(../../images/bg.jpg) no-repeat;
 	background-size:cover;
 	min-height:835px;
 }
 .banner-bg2 {
-	background:url(../images/bg2.jpg) no-repeat;
+	background:url(../../images/bg2.jpg) no-repeat;
 	background-size:cover;
 	min-height:835px;
 }
@@ -185,7 +185,7 @@ a.morebtn:hover{
 }
 /*--categories--*/
 .categories{
-	background:url(../images/cate.jpg) no-repeat;
+	background:url(../../images/cate.jpg) no-repeat;
 	background-size:cover;
 	min-height:600px;
 	text-align:center;
@@ -349,7 +349,7 @@ select{
 }
 /*--contact--*/
 .contact{
-	background:url(../images/contact.jpg) no-repeat 0px 0px;
+	background:url(../../images/contact.jpg) no-repeat 0px 0px;
 	min-height:560px;
 	background-size:cover;
 	text-align:center;
