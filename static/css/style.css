@@ -321,7 +321,7 @@ select{
 	font-weight:500;
 	padding:1em 2.5em;
 	border-radius:5px;
-	background:#b7b7b7;
+	background:#12868F;
 }
 .model-info a:hover{
 	background:#000;
@@ -398,7 +398,7 @@ select{
 }
 .contact form input[type="submit"] {
   color: #fff;
-  background: #b7b7b7;
+  background: #12868F;
   font-size: 1em;
   font-weight: 400;
   text-decoration: none;
