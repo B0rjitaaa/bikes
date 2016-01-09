@@ -79,26 +79,47 @@
 
 	<div id="cate" class="categories">
 		<div class="container">
-			<h3>Servicios</h3>
-		 	<div class="categorie-grids">
-				<a href="bicycles.html">
-				<div class="col-md-4 cate-grid grid1">
-					<h4>TEXTO</h4>
-					<p>Are you ready </p>
-				<a class="store" href="bicycles.html">Detalles</a>
-			 	</div></a>
+			<h3>ALQUILER DE BICIS</h3>
+		 	<div class="col-md-4">
+		 		<img src="../../images/c1.jpg" alt="">
+		 	</div>
+		 	<div class="col-md-8">
+		 	
+		 		<div class="center"><button data-toggle="modal" data-target="#squarespaceModal" class="btn btn-primary center-block">Click Me</button></div>
+				<!-- line modal -->
+				<div class="modal fade" id="squarespaceModal" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+				  <div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+							<h3 class="modal-title" id="lineModalLabel">REGISTRO</h3>
+						</div>
+						<div class="booking">
+				            <!-- content goes here -->
+							<form>
+								 <input class="user" type="text" placeholder="NOMBRE" required="">
+								 <input class="user" type="text" placeholder="APELLIDOS" required="">			 
+								 <input class="user" type="text" placeholder="EMAIL" required=""><br>
+								 <input class="user" type="text" placeholder="TELÉFONO" required=""><br>
+								 <input type="text" placeholder="BICIS" required="">
+								 <select name="" id="">
+								 	<option value="--" selected="true">Tiempo</option>
+								 	<option value="1">1h - 3€</option>
+								 	<option value="1">3h - 8€</option>
+								 	<option value="1">12h - 10€</option>
+								 	<option value="1">24h - 15€</option>
+								 </select><br>
+								 <input type="submit" value="Reservar">
+							</form>
 
-			 	<a href="bicycles.html"><div class="col-md-4 cate-grid grid2">
-			 	<h4>TEXTO</h4>
-			 	<p>Exclusive Bike Components</p>
-	 			<a class="store" href="bicycles.html">Detalles</a>
-			 	</div></a>
-
-			 	<a href="bicycles.html"><div class="col-md-4 cate-grid grid3">
-			 	<h4>TEXTO</h4>
-			 	<p>Street Playground</p>
-			 	<a class="store" href="bicycles.html">Detalles</a>
-			 	</div></a>
+						</div>
+						
+					</div>
+				  </div>
+				</div>
+		 	</div>
+			
+		 	
 			 <div class="clearfix"></div>
 		 	</div>
 	 	</div>
@@ -283,8 +304,8 @@
 	</div>
 </body>
 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 	<script type="text/javascript" src=" {% static 'js/jquery.easydropdown.js' %}"></script>
 	
 	<script type="text/javascript" src=" {% static 'js/bootstrap.min.js' %}"></script>

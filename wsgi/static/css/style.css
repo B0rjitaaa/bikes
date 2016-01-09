@@ -46,12 +46,12 @@ color: #fff;
 color:#fcff19;
 }
 .banner-bg1{
-	background:url(../images/bg.jpg) no-repeat;
+	background:url(../../images/bg.jpg) no-repeat;
 	background-size:cover;
 	min-height:835px;
 }
 .banner-bg2 {
-	background:url(../images/bg2.jpg) no-repeat;
+	background:url(../../images/bg2.jpg) no-repeat;
 	background-size:cover;
 	min-height:835px;
 }
@@ -185,7 +185,7 @@ a.morebtn:hover{
 }
 /*--categories--*/
 .categories{
-	background:url(../images/cate.jpg) no-repeat;
+	background:url(../../images/cate.jpg) no-repeat;
 	background-size:cover;
 	min-height:600px;
 	text-align:center;
@@ -210,13 +210,13 @@ a.morebtn:hover{
 	width:31%;
 }
 .grid1{
-	background:url(../images/c1.jpg) no-repeat;
+	background:url(../../images/c1.jpg) no-repeat;
 }
 .grid2{
-	background:url(../images/c2.jpg) no-repeat;
+	background:url(../../images/c2.jpg) no-repeat;
 }
 .grid3{
-	background:url(../images/c3.jpg) no-repeat;
+	background:url(../../images/c3.jpg) no-repeat;
 }
 .cate-grid h4{
 	color:#fcff19;
@@ -321,11 +321,80 @@ select{
 	font-weight:500;
 	padding:1em 2.5em;
 	border-radius:5px;
-	background:#b7b7b7;
+	background:#12868F;
 }
 .model-info a:hover{
 	background:#000;
 	color:#fcff19;
+}
+.social {
+  margin: 0em 0;
+  float: right;
+}
+.social i {
+width: 27px;
+height: 27px;
+display: inline-block;
+margin:0 5px;
+}
+.social a{
+	color:white;
+}
+.social a:hover{
+	color:black;
+}
+a i.facebook{
+background-position:-3px -2px;
+}
+a i.twitter{
+background-position: -43px -3px;
+}
+a i.dribble{
+background-position: -83px -3px;
+}
+a i.google{
+background-position:-126px -2px
+}
+a i.youtube{
+background-position:-167px -3px;
+}
+a i.facebook:hover{
+background-position:-3px -36px;
+}
+a i.twitter:hover{
+background-position: -43px -36px;
+}
+a i.dribble:hover{
+background-position: -83px -36px;
+}
+a i.google:hover{
+background-position:-126px -36px
+}
+a i.youtube:hover{
+background-position:-167px -36px;
+}
+.center {
+    margin-top:50px;   
+}
+
+.modal-header {
+	padding-bottom: 5px;
+}
+
+.modal-footer {
+    	padding: 0;
+	}
+    
+.modal-footer .btn-group button {
+	height:40px;
+	border-top-left-radius : 0;
+	border-top-right-radius : 0;
+	border: none;
+	border-right: 1px solid #ddd;
+}
+	
+.modal-footer .btn-group:last-child > button {
+	border-right: 0;
 }
 .viw{
 	  position: absolute;
@@ -349,7 +418,7 @@ select{
 }
 /*--contact--*/
 .contact{
-	background:url(../images/contact.jpg) no-repeat 0px 0px;
+	background:url(../../images/contact.jpg) no-repeat 0px 0px;
 	min-height:560px;
 	background-size:cover;
 	text-align:center;
@@ -370,7 +439,7 @@ select{
 	width:43%;
 	margin:3em auto 0 auto;
 }
-.contact form input[type="text"], .contact textarea {
+.contact form input[type="text"], .contact textarea , select{
   width: 43%;
   margin-right: 4%;
   padding: 10px;
@@ -398,7 +467,7 @@ select{
 }
 .contact form input[type="submit"] {
   color: #fff;
-  background: #b7b7b7;
+  background: #12868F;
   font-size: 1em;
   font-weight: 400;
   text-decoration: none;
@@ -415,6 +484,77 @@ select{
   -ms-transition: 0.5s all ease;
 }
 .contact form input[type="submit"]:hover{
+	background:#000;
+	color:#fcff19;
+}
+/*--booking--*/
+.booking{
+	/*background:url(../../images/contact.jpg) no-repeat 0px 0px;*/
+	min-height:560px;
+	background-size:cover;
+	text-align:center;
+	padding:4em 0;
+}
+.booking h3{
+	color: #000;
+	font-size: 2em;
+    font-weight: 600;
+    margin-bottom:0.7em;
+}
+.booking p{
+  color: #000;
+  font-size: 1.15em;
+  font-weight: 500;
+}
+.booking form{	
+	width:60%;
+	margin:3em auto 0 auto;
+}
+.booking form input[type="text"], .booking textarea , select{
+  width: 50%;
+  margin-right: 4%;
+  padding: 10px;
+  border: 1px solid #b7b7b7;
+  font-size: 1em;
+  margin-bottom: 2em;
+  font-style:italic;
+  color: #000;
+  background: #fff;
+  outline: none;
+  font-weight: 400;
+  border-radius:7px;
+  transition: 0.5s all ease;
+  -webkit-transition: 0.5s all ease;
+  -moz-transition: 0.5s all ease;
+  -o-transition: 0.5s all ease;
+  -ms-transition: 0.5s all ease;
+}
+.booking form input[type="text"].user,.booking textarea {
+	width:90%;
+	resize:none;
+}
+.booking textarea {
+	height:170px;
+}
+.booking form input[type="submit"] {
+  color: #fff;
+  background: #12868F;
+  font-size: 1em;
+  font-weight: 400;
+  text-decoration: none;
+  border: none;  
+  width:90%;
+  margin:0 auto;
+  padding: 10px 30px;
+  display: block;
+  border-radius:7px;  
+  transition: 0.5s all ease;
+  -webkit-transition: 0.5s all ease;
+  -moz-transition: 0.5s all ease;
+  -o-transition: 0.5s all ease;
+  -ms-transition: 0.5s all ease;
+}
+.booking form input[type="submit"]:hover{
 	background:#000;
 	color:#fcff19;
 }
@@ -1353,7 +1493,7 @@ width:37%;
 .model-info {
   width: 55%;
 }
-.contact form input[type="submit"] {
+.booking form input[type="submit"] {
   width: 89%;
   margin: 0 0 0 18px;
   padding: 11px 0px;
