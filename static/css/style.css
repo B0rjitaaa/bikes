@@ -490,6 +490,7 @@ background-position:-167px -36px;
 /*--booking--*/
 .booking{
 	/*background:url(../../images/contact.jpg) no-repeat 0px 0px;*/
+	position: relative;
 	min-height:560px;
 	background-size:cover;
 	text-align:center;
@@ -513,11 +514,11 @@ background-position:-167px -36px;
 .booking form input[type="text"], .booking textarea , select{
   width: 50%;
   margin-right: 4%;
-  padding: 10px;
+  padding: 7px;
+  padding-left: 30px; 
   border: 1px solid #b7b7b7;
   font-size: 1em;
   margin-bottom: 2em;
-  font-style:italic;
   color: #000;
   background: #fff;
   outline: none;
@@ -528,6 +529,11 @@ background-position:-167px -36px;
   -moz-transition: 0.5s all ease;
   -o-transition: 0.5s all ease;
   -ms-transition: 0.5s all ease;
+}
+.booking i{
+	position: absolute;
+    padding: 10px 12px;
+    pointer-events: none;
 }
 .booking form input[type="text"].user,.booking textarea {
 	width:90%;
